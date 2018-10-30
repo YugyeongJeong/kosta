@@ -14,7 +14,6 @@ public class Hello {
 		String str = "ABC";
 //		System.out.println("Hello World! 헬로우 월드!");
 		System.out.println(str);
-		System.out.println(str);
 		
 	}
 }
