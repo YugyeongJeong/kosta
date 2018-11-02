@@ -10,7 +10,7 @@ public class Mission11 {
 	static Scanner sc = new Scanner(System.in);
 	static int cnt = 0;
 
-	public static void main(String args[]) {
+	public static void main(String args[]) { 
 
 		int menu = -1;
 
