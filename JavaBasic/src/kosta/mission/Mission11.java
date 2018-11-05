@@ -19,7 +19,7 @@ public class Mission11 {
 			System.out.println("1.추가, 2.전체출력, 3.검색, 0.종료");
 			System.out.print("입력 : ");
 			menu = sc.nextInt();
-			sc.nextLine();
+			sc.nextLine(); 
 
 			switch (menu) {
 			case 1:
