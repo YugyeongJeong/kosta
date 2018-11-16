@@ -1,4 +1,4 @@
-package oop3;
+package kosta.oop3;
 
 import java.awt.Button;
 import java.awt.Frame;

@@ -1,4 +1,4 @@
-package speak;
+package kosta.speak;
 
 public class Student extends Man {
 

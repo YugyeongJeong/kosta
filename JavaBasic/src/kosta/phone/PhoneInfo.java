@@ -1,6 +1,10 @@
 package kosta.phone;
 
-public class PhoneInfo {
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+
+public class PhoneInfo implements Serializable{
 	
 	private String name;
 	private String phoneNo;
@@ -50,5 +54,8 @@ public class PhoneInfo {
 		System.out.println(this.name + "님의 전화번호는 " + this.phoneNo + "입니다.");
 		
 	}
+
+	
+	
 
 }

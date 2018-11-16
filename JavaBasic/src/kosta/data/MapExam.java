@@ -26,7 +26,7 @@ public class MapExam {
 		System.out.println("요소 갯수 : " + map.size());
 		
 		//Map 전체내용 출력
-		//Map => Set => Interator
+		//Map => Set => Iterator
 		Set set = map.entrySet();
 		Iterator iter = set.iterator();
 		

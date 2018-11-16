@@ -13,8 +13,6 @@ public class CompanyPhoneInfo extends PhoneInfo {
 		this.position = position;
 	}
 
-
-
 	public String getDept() {
 		return dept;
 	}

@@ -1,4 +1,4 @@
-package speak;
+package kosta.speak;
 
 public class Reader extends Man implements Speakable {
 	

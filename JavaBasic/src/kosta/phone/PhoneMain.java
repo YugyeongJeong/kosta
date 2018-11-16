@@ -48,15 +48,26 @@ public class PhoneMain {
 		System.out.println("===============삭제================");
 		idx = man.search("박서준");
 		man.delete(idx);
-
-		// 전체 출력
-		 System.out.println("UniversePhoneInfo 출력");
-		 for (int i = 0; i < PhoneManager.cnt; i++)
-		 man.printUniverse(i);
 		
-		 System.out.println("CompanyPhoneInfo 출력");
-		 for (int i = 0; i < PhoneManager.cnt; i++)
-		 man.printCompany(i);
+		//정렬연산
+		System.out.println("===============정렬================");
+		man.sort();
+		for (int i = 0; i < man.list.size(); i++)
+			System.out.println(man.toString(i));
+		
+		//직렬화
+		System.out.println("===============직렬화================");
+		man.write();
+		System.out.println("===============역직렬화================");
+		ArrayList<PhoneInfo> pi = man.read();
+		System.out.println(pi);
+//		 System.out.println("UniversePhoneInfo 출력");
+//		 for (int i = 0; i < PhoneManager.cnt; i++)
+//		 man.printUniverse(i);
+//		
+//		 System.out.println("CompanyPhoneInfo 출력");
+//		 for (int i = 0; i < PhoneManager.cnt; i++)
+//		 man.printCompany(i);
 
 	}
 

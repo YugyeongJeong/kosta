@@ -1,4 +1,4 @@
-package oop3;
+package kosta.oop3;
 
 public class MyThread implements Runnable {
 
